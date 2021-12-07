@@ -1,0 +1,10 @@
+.char_img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    opacity: .8;
+    justify-content:center;
+    display: block;
+    margin: 0 auto;
+}
