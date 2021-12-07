@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Deployment (AWS S3 Bucket):
+https://rest-api-breaking-bad-js.s3.eu-west-2.amazonaws.com/index.html
+
+# Remember:
+If you clone the repository, when you open the folder in your code editor, in the console you must first execute the command `npm install`, since this creates the **node_modules** folder, which is essential for the proper functioning of the application. Finally, you can run the application with the command `npm start`.
+
 ## Available Scripts
 
 In the project directory, you can run:
