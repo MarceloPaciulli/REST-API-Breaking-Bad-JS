@@ -18,7 +18,7 @@ function App() {
   
   const updateName = async () => {
     setLoading(true);
-    const url = "https://www.breakingbadapi.com/api/characters/" + position; // out of danger
+    const url = ""https://www.breakingbadapi.com/api/characters?category=Breaking+Bad" + position; // out of danger
     const res = await fetch(url);
     const [newName] = await res.json(); 
     const {name, portrayed, img} = newName;
